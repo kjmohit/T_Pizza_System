@@ -1,0 +1,39 @@
+﻿<mat-toolbar>
+  <span><strong> {{pizzaname}}</strong> </span>
+  <span class="fill-remaining-space"></span> 
+</mat-toolbar>
+
+<form [formGroup]="form" class="normal-form" (submit)="onSubmit()">
+  <mat-grid-list cols="1" rowHeight="300px">
+    <mat-grid-tile>
+      
+      <div class="controles-container">
+      
+             <h6> <strong>Select Cheese</strong></h6>
+          <mat-radio-group formControlName="cheeseType">
+            <mat-radio-button value="1">Peri Peri Cheese(Tangy Spicy Taste)</mat-radio-button>
+            <mat-radio-button value="2">Chipotle Cheese(Smokey Spic Taste)</mat-radio-button>
+            <mat-radio-button value="3">Tandoori Cheese(Tandoori Masala Taste)</mat-radio-button>
+            <mat-radio-button value="4">El Classico Cheese (Regular Mozzarella)</mat-radio-button>
+          </mat-radio-group>
+      
+          
+        <div class="add-bottom-padding">
+            <h6><strong>Select Extra Toppings</strong></h6>
+            <ul>
+             <li><mat-checkbox formControlName="29">Onion         &#x20b9; 29</mat-checkbox></li>
+              <li><mat-checkbox formControlName="35">American Corn        &#x20b9; 35</mat-checkbox></li>
+             <li><mat-checkbox formControlName="55">Black Olives       &#x20b9; 55</mat-checkbox></li>  
+            </ul>
+        </div>
+
+          <div class = "sub-total"><h5>Total:  {{total |currency:"INR"}}</h5></div>
+             
+        <div class="button-row">
+          <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">Submit</button>
+          <button mat-raised-button color="warn" (click)="onClose()">Close</button>
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</form>

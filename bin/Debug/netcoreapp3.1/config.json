@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "PizzaContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=PizzaOrderingDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+
+  },
+  "Tokens": {
+    "Key": ";fgdg;tergeqwet;werwtqwtrb;vghwi;",
+    "Issuer": "http://localhost:8888",
+    "Audience": "http://localhost:8888"
+  }
+}

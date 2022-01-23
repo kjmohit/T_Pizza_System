@@ -1,0 +1,98 @@
+[
+	{
+		"Id": 0,
+		"Category": "New Hand Tossed",
+		"Size": "Regular",
+		"Price": 400,
+		"Title": "Peppy Paneer Pizza",
+		"Ingredients": "Juicy paneer, crisp capsicum, red paprika"
+	},
+	{
+		"Id": 0,
+		"Category": "Cheese Burst",
+		"Size": "Medium",
+		"Price": 100,
+		"Title": "Margherita",
+		"Ingredients": " 100% real mozarella cheese"
+	},
+	{
+		"Id": 0,
+		"Category": "Wheat Crust",
+		"Size": "Large",
+		"Price": 600,
+		"Title": "Farm House",
+		"Ingredients": "Onion, Capsicum, tomoato, grilled mushroom"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Regular",
+		"Price": 200,
+		"Title": "Veggie Paradise",
+		"Ingredients": "Onion, Capsicum, tomoato, grilled mushroom"
+	},
+	{
+		"Id": 0,
+		"Category": "Cheese Burst",
+		"Size": "Medium",
+		"Price": 400,
+		"Title": "Mexican Green Wave",
+		"Ingredients": "Onion, Capisicum, Tomato, mexican herbs, jalapeno"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Regular",
+		"Price": 200,
+		"Title": "Cheese N Corn",
+		"Ingredients": "golden corn and cheese"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Regular",
+		"Price": 200,
+		"Title": "Farm House",
+		"Ingredients": "Onion, Capsicum"
+	},
+	{
+		"Id": 0,
+		"Category": "Cheese Burst",
+		"Size": "Large",
+		"Price": 800,
+		"Title": "Veg Extravagnza",
+		"Ingredients": "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese"
+	},
+	{
+		"Id": 0,
+		"Category": "Wheat Crust",
+		"Size": "Medium",
+		"Price": 400,
+		"Title": "Deluxe Veggie",
+		"Ingredients": "onion, capsicum, grilled mushroom, corn & paneer"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Large",
+		"Price":600,
+		"Title": "Paneer Makhani",
+		"Ingredients": "Flavorful twist of spicy makhani sauce topped with paneer & capsicum"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Regular",
+		"Price":800,
+		"Title": "Moroccan Spice Pasta Pizza",
+		"Ingredients": "A pizza loaded with a spicy combination of Harissa sauce and delicious pasta"
+	},
+	{
+		"Id": 0,
+		"Category": "Fresh Pan Pizza",
+		"Size": "Medium",
+		"Price": 100.00,
+		"Title": "Indi Tandoori Paneer",
+		"Ingredients": "Tandoori paneer with capsicum, red paprika & mint mayo"
+	}
+]

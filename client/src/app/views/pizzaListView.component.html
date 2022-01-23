@@ -1,0 +1,16 @@
+﻿<div class="row">
+    <div *ngFor="let p of store.pizzas" class="col-md-4">
+        <div class="border bg-light rounded p-1">
+            <img src="/img/{{p.id}}.jpg" class="img-fluid product-image" alt="{{p.id}}" />
+            <h5>{{p.title}}</h5>
+            <ul class="products-props">
+                <li>Price: {{p.price | currency:"INR"}}</li>
+                <li>Category: {{p.category}} </li>
+                <li>Size: {{p.size}}</li>
+                <li>Ingredients: {{p.ingredients}}</li>
+            </ul>
+            <button id="buyButton" class="btn btn-success" (click)="store.addToOrder(p)">Buy</button>
+            <button id="customiseButton" class="btn btn-light" (click)="onCustomise(p)">Customise</button>
+        </div>
+    </div>
+</div>     
